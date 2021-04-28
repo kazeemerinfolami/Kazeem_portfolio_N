@@ -46,6 +46,7 @@ nav div{
 }
 .welcomeIcon{
     color: #616161;
+    margin: 0 5px;
 }
 .Dev-name{
     width: 100%;
@@ -259,9 +260,9 @@ align-items: center;
 }
 
     @media (max-width: 980px) {
-     .welcomeIcon{
+     /* .welcomeIcon{
          display: none;
-     }  
+     }   */
 .welcome-wrapper{
     display: flex;
     justify-content: center;

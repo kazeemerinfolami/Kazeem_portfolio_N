@@ -4,10 +4,39 @@ import { Container, Col, Row } from 'react-bootstrap';
 import { Helmet } from 'react-helmet';
 import Content1 from './Content1';
 import Content2 from './Content2';
+import { motion } from "framer-motion"
+
+const containerRouterAnim = {
+    hidden: {
+        opacity: 0,
+
+    },
+    visible: {
+        opacity: 1,
+        // transition: {
+        //     delay: 0,
+        //     duration: 1.5
+        // }
+    },
+    exit: {
+        x: "-300vh",
+        transition: {
+            ease: "easeInOut",
+            // duration: 1.5
+        }
+    }
+}
+
 
 function AboutMe() {
     return (
-        <div className="About-me-container">
+        <motion.div
+            variants={containerRouterAnim}
+            initial="hidden"
+            animate="visible"
+            exit="exit"
+
+            className="About-me-container">
             <div>
                 <Helmet>
                     <title>Kazeem | About Me</title>
@@ -24,7 +53,7 @@ function AboutMe() {
                     </Row>
                 </Container>
             </div>
-        </div>
+        </motion.div>
     )
 }
 

@@ -1,11 +1,35 @@
 import React from 'react'
+import { motion } from "framer-motion"
+
+const animVariants = {
+    visible: {
+        x: [0, -40, 10],
+        transition: {
+            delay: 0,
+            yoyo: Infinity,
+            duration: 5,
+            // type: "spring",
+            // stiffness: 100,
+        }
+    },
+    hover: {
+        scale: 3,
+        color: "#ffffff",
+        x: 0,
+    }
+}
 
 function ContactForm() {
     return (
         <div className="Contact-me-for-container">
             <div className="Contact-kazeem-text">
                 <div>Connect with Kazeem <span className="iconify" data-icon="fontelico:emo-happy" data-inline="false"></span></div>
-                <div><span className="mouse-icon iconify" data-icon="emojione-monotone:computer-mouse" data-inline="false"></span></div>
+                <motion.div
+                    variants={animVariants}
+                    animate="visible"
+                    whileHover="hover"
+                ><span className="mouse-icon iconify" data-icon="emojione-monotone:computer-mouse" data-inline="false"></span>
+                </motion.div>
             </div>
             <form className="Con-Form-wrapper">
                 <div className="row">

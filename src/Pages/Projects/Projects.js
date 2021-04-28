@@ -3,10 +3,37 @@ import Nav from '../Components/Nav'
 import { Helmet } from 'react-helmet';
 import { Container, Row, Col } from 'react-bootstrap';
 import ProjectIMG from './ProjectIMG';
+import { motion } from "framer-motion"
+
+const containerRouterAnim = {
+    hidden: {
+        opacity: 0,
+
+    },
+    visible: {
+        opacity: 1,
+        // transition: {
+        //     delay: 0,
+        //     duration: 1.5
+        // }
+    },
+    exit: {
+        x: "-300vh",
+        transition: {
+            ease: "easeInOut",
+            // duration: 1.5
+        }
+    }
+}
 
 function Projects() {
     return (
-        <div className="project-container">
+        <motion.div
+            variants={containerRouterAnim}
+            initial="hidden"
+            animate="visible"
+            exit="exit"
+            className="project-container">
             <div>
                 <Helmet>
                     <title>Kazeem | Projects</title>
@@ -20,7 +47,7 @@ function Projects() {
                     </Row>
                 </Container>
             </div>
-        </div>
+        </motion.div>
     )
 }
 

@@ -1,4 +1,6 @@
 import React from 'react'
+import { motion } from "framer-motion"
+
 
 function Content1() {
     return (
@@ -8,9 +10,20 @@ function Content1() {
                     <div className="about-page-name">Kazeem Bolaji Erinfolami</div>
                     <div>Frontend Developer</div>
                 </div>
-                <div className="img-img-container">
+                <motion.div
+                    className="img-img-container"
+                    initial={{ y: "-200vw" }}
+                    animate={{ y: 0 }}
+                    transition={{
+                        delay: 0.5,
+                        type: "spring",
+                        stiffness: 100,
+                        mass: 0.4,
+                        damping: 8
+                    }}
+                >
                     <img className="Profile-img" alt="profileIMG" src="./assets/images/IMG_4234.jpg" />
-                </div>
+                </motion.div>
             </div>
         </div>
     )
