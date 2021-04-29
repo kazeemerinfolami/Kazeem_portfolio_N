@@ -107,15 +107,24 @@ function Content2() {
 
                     </div>
                     <div>
-                        Moritz’s portfolio really gets
-                        of what UX design is all about: going through a process to solve a user problem. Moritz doesn’t just show the finished product; he shares, in detail, all the methods and processes that got him there.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+                        
+                        fugiat, temporibus enim commodi iusto libero magni deleniti quod quam
+                        consequuntur! Commodi minima excepturi repudiandae velit hic maxime
+                        
                     </div>
                     <div>
-                        Moritz’s portfolio really gets to the heart of what UX design is all about: going through a process to solve a user problem. Moritz doesn’t just show the finished product; he shares, in detail, all the methods and processes that got him there.
+                        doloremque. Quaerat provident commodi consectetur veniam similique ad
+                        earum omnis ipsum saepe, voluptas, hic voluptates pariatur est explicabo
+                        fugiat, dolor
                     </div>
                     <div>
-                        Moritz’s portfolio really gets to the heart of what UX design is all about: going through a process to solve a user problem. Moritz doesn’t just show the finished product; he shares, in detail, all the methods and processes that got him there.
-                    </div>
+doloremque. Quaerat provident commodi consectetur veniam similique ad
+                        earum omnis ipsum saepe, voluptas, hic voluptates pariatur est explicabo
+                        fugiat, dolorum eligendi quam cupiditate excepturi mollitia maiores labore
+                        suscipit quas? Nulla, placeat. Voluptatem quaerat non architecto ab laudantium
+                        modi minima sunt esse temporibus sint culpa, recusandae aliquam numquam
+                        totam ratione voluptas quod exercitationem fug                    </div>
                 </div>
                 {/* <div className="dev-icon-box">
                     <span className="Devicon iconify" data-icon="fluent:window-dev-tools-24-filled" data-inline="false"></span>

@@ -10,6 +10,9 @@ html {
   font-family: nameFONT !important;
   color: #464545;
 }
+/* #root{
+      background-color: #dddddd;
+} */
 .navLink{
     text-decoration: none !important;
 }

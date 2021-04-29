@@ -7,11 +7,11 @@ import { motion } from "framer-motion"
 
 const containerRouterAnim = {
     hidden: {
-        opacity: 0,
+        // opacity: 0,
 
     },
     visible: {
-        opacity: 1,
+        // opacity: 1,
         // transition: {
         //     delay: 0,
         //     duration: 1.5
