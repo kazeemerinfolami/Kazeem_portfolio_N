@@ -106,25 +106,24 @@ function Content2() {
                         </div>
 
                     </div>
+                I’m a self-taught Front End Developer based in Lagos, Nigeria🇳🇬. I develop interesting, accessible and responsive websites using HTML, CSS Javascript and React.js.
+                        <div>
+                        i am an avid advocate for diversity and intersectionality in technology also regularly volunteer at organizations geared towards the increment of minorities in the techspace.
+                         <div>
+                            I have worked remotely as a Front End Developer at Ivyarc, Dufuna Codecamp located in Nigeria and currently work for Turon Technologie in Lagos Nigeria and voluntarily for Tech for Good in the United States of America.
+                         </div>
+                    </div>
+
+
                     <div>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-                        
-                        fugiat, temporibus enim commodi iusto libero magni deleniti quod quam
-                        consequuntur! Commodi minima excepturi repudiandae velit hic maxime
-                        
+                        Currently, I’m focused on moving to the next stage of my career and achieving mid-level developer status.
                     </div>
                     <div>
-                        doloremque. Quaerat provident commodi consectetur veniam similique ad
-                        earum omnis ipsum saepe, voluptas, hic voluptates pariatur est explicabo
-                        fugiat, dolor
+                        Thanks for reading 😊
                     </div>
-                    <div>
-doloremque. Quaerat provident commodi consectetur veniam similique ad
-                        earum omnis ipsum saepe, voluptas, hic voluptates pariatur est explicabo
-                        fugiat, dolorum eligendi quam cupiditate excepturi mollitia maiores labore
-                        suscipit quas? Nulla, placeat. Voluptatem quaerat non architecto ab laudantium
-                        modi minima sunt esse temporibus sint culpa, recusandae aliquam numquam
-                        totam ratione voluptas quod exercitationem fug                    </div>
+
+
+
                 </div>
                 {/* <div className="dev-icon-box">
                     <span className="Devicon iconify" data-icon="fluent:window-dev-tools-24-filled" data-inline="false"></span>
