@@ -71,7 +71,7 @@ function Content2() {
                             type: "spring",
                             stiffness: 1000,
                         }}
-                        href="https://drive.google.com/file/d/1lmIbfD1zwxL4YqxboWUM5BWjHnsqAQVV/view?usp=sharing" target="_blank" rel="noreferrer"><span class="iconify" data-icon="ant-design:file-pdf-filled" data-inline="false"></span></motion.a>
+                        href="https://drive.google.com/file/d/16nFKKHpZN90QILDO7Gi_OmV9njh7apXP/view?usp=sharing" target="_blank" rel="noreferrer"><span class="iconify" data-icon="ant-design:file-pdf-filled" data-inline="false"></span></motion.a>
                     <motion.a
                         whileHover={{
                             scale: 1.7,
@@ -108,9 +108,9 @@ function Content2() {
                     </div>
                 I’m a self-taught Front End Developer based in Lagos, Nigeria🇳🇬. I develop interesting, accessible and responsive websites using HTML, CSS Javascript and React.js.
                         <div>
-                        i am an avid advocate for diversity and intersectionality in technology also regularly volunteer at organizations geared towards the increment of minorities in the techspace.
+                        i am an avid advocate for diversity and intersectionality in technology🤖 also regularly volunteer at organizations geared towards the increment of minorities in the techspace.
                          <div>
-                            I have worked remotely as a Front End Developer at Ivyarc, Dufuna Codecamp located in Nigeria and currently work for Turon Technologie in Lagos Nigeria and voluntarily for Tech for Good in the United States of America.
+                            I have worked remotely as a Front End Developer👨‍💻 at Ivyarc, Dufuna Codecamp located in Nigeria and currently work for Turon Technologie in Lagos Nigeria and voluntarily for Tech for Good in the United States.
                          </div>
                     </div>
 
