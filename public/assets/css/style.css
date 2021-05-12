@@ -154,7 +154,7 @@ background-size: cover;
 }
 
 .project-container{
-background: rgb(187, 187, 187);
+/* background: rgb(187, 187, 187); */
     min-height: 100vh;
 }
 .project-img-wrapper{
