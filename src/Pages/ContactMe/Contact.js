@@ -35,7 +35,7 @@ function Contact() {
             animate="visible"
             exit="exit"
         >
-            <div>
+            <div className="Contact-container">
                 <Helmet>
                     <title>Kazeem | Contact Me</title>
                 </Helmet>
