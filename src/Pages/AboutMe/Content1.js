@@ -22,7 +22,7 @@ function Content1() {
                         damping: 8
                     }}
                 >
-                    <img className="Profile-img" alt="profileIMG" src="./assets/images/IMG_4234.jpg" />
+                    <img className="Profile-img" alt="profileIMG" src="https://res.cloudinary.com/kazeemerinfolami/image/upload/v1620849290/PortfolioIMG/Backgrounds/IMG_4234_qnb8lx.jpg" />
                 </motion.div>
             </div>
         </div>

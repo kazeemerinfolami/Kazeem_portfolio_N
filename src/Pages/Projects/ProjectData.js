@@ -1,245 +1,193 @@
-import p11 from "../../img/projPic/p1.1.png";
-import p12 from "../../img/projPic/p1.2.png";
-import p13 from "../../img/projPic/p1.3.png";
-import p14 from "../../img/projPic/p1.4.png";
-import p15 from "../../img/projPic/p1.5.png";
-import p16 from "../../img/projPic/p1.6.png";
-import p17 from "../../img/projPic/p1.7.png";
-import p21 from "../../img/projPic/p2.1.png";
-import p22 from "../../img/projPic/p2.2.png";
-import p23 from "../../img/projPic/p2.3.png";
-import p31 from "../../img/projPic/p3.1.png";
-import p32 from "../../img/projPic/p3.2.png";
-import p33 from "../../img/projPic/p3.3.png";
-import p34 from "../../img/projPic/p3.4.png";
-import p35 from "../../img/projPic/p3.5.png";
-import p36 from "../../img/projPic/p3.6.png";
-import p37 from "../../img/projPic/p3.7.png";
-import p41 from "../../img/projPic/p4.1.png";
-import p42 from "../../img/projPic/p4.2.png";
-import p43 from "../../img/projPic/p5.1.png";
-import p44 from "../../img/projPic/p5.2.png";
-import p45 from "../../img/projPic/p5.3.png";
-import p46 from "../../img/projPic/p5.4.png";
-import p47 from "../../img/projPic/p5.5.png";
-import p48 from "../../img/projPic/p5.6.png";
-import p49 from "../../img/projPic/p5.7.png";
-import p50 from "../../img/projPic/p5.8.png";
-import p51 from "../../img/projPic/p6.1.png";
-import p52 from "../../img/projPic/p6.2.png";
-import p53 from "../../img/projPic/p6.3.png";
-import p54 from "../../img/projPic/p6.4.png";
-import p55 from "../../img/projPic/p6.5.png";
-import p56 from "../../img/projPic/p6.6.png";
-import p57 from "../../img/projPic/p6.7.png";
-import p58 from "../../img/projPic/p6.8.png";
-import p59 from "../../img/projPic/p6.9.png";
-import p90 from "../../img/projPic/p6.10.png";
-import p91 from "../../img/projPic/p6.11.png";
-import p92 from "../../img/projPic/p6.12.png";
-import p93 from "../../img/projPic/p7.1.png";
-import p94 from "../../img/projPic/p7.2.png";
-import p95 from "../../img/projPic/p7.3.png";
-import p96 from "../../img/projPic/p7.4.png";
-import p97 from "../../img/projPic/p7.5.png";
-import p98 from "../../img/projPic/p7.6.png";
-import p99 from "../../img/projPic/p7.7.png";
-import p100 from "../../img/projPic/p7.8.png";
-import p101 from "../../img/projPic/p7.9.png";
-import p102 from "../../img/projPic/p7.10.png";
-
-
-
 export const ProjectData = [
     {
-        projIMG: p11,
+        projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1620849183/PortfolioIMG/Projects/p1.1_e9obvx.png",
         url: "http://iqstore.ivyarc.com/"
     },
     {
-        projIMG: p12,
+        projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1620849122/PortfolioIMG/Projects/p1.2_sqxlyo.png",
         url: "http://iqstore.ivyarc.com/"
     },
     {
-        projIMG: p13,
+        projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1620849151/PortfolioIMG/Projects/p1.3_ibywsp.png",
         url: "http://iqstore.ivyarc.com/"
     },
     {
-        projIMG: p14,
+        projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1620849151/PortfolioIMG/Projects/p1.4_lhmqkd.png",
         url: "http://iqstore.ivyarc.com/"
     }, {
-        projIMG: p15,
+        projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1620849121/PortfolioIMG/Projects/p1.5_a1szld.png",
         url: "http://iqstore.ivyarc.com/"
     },
     {
-        projIMG: p16,
+        projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1620849121/PortfolioIMG/Projects/p1.6_luouop.png",
         url: "http://iqstore.ivyarc.com/"
     }, {
-        projIMG: p17,
+        projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1620849122/PortfolioIMG/Projects/p1.7_lsakhr.png",
         url: "http://iqstore.ivyarc.com/"
     }];
 export const ProjectData2 = [
     {
-        projIMG: p21,
+        projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1620849134/PortfolioIMG/Projects/p2.1_ndfhq8.png",
         url: "https://laughing-bose-fd441e.netlify.app/"
     },
     {
-        projIMG: p22,
+        projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1620849124/PortfolioIMG/Projects/p2.2_kad9e0.png",
         url: "https://laughing-bose-fd441e.netlify.app/"
     },
     {
-        projIMG: p23,
+        projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1620849125/PortfolioIMG/Projects/p2.3_ahflht.png",
         url: "https://laughing-bose-fd441e.netlify.app/"
     },]
 export const ProjectData3 = [
     {
-        projIMG: p31,
+        projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1620849132/PortfolioIMG/Projects/p3.1_mwoazu.png",
         url: "https://kind-agnesi-86dcc5.netlify.app/"
     },
     {
-        projIMG: p32,
+        projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1620849141/PortfolioIMG/Projects/p3.2_za2kob.png",
         url: "https://kind-agnesi-86dcc5.netlify.app/"
     },
     {
-        projIMG: p33,
+        projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1620849136/PortfolioIMG/Projects/p3.3_msvbxs.png",
         url: "https://kind-agnesi-86dcc5.netlify.app/"
     },
     {
-        projIMG: p34,
+        projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1620849139/PortfolioIMG/Projects/p3.4_wqxcis.png",
         url: "https://kind-agnesi-86dcc5.netlify.app/"
     }, {
-        projIMG: p35,
+        projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1620849140/PortfolioIMG/Projects/p3.5_nk8m4v.png",
         url: "https://kind-agnesi-86dcc5.netlify.app/"
     },
     {
-        projIMG: p36,
+        projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1620849151/PortfolioIMG/Projects/p3.6_idlydm.png",
         url: "https://kind-agnesi-86dcc5.netlify.app/"
     },
     {
-        projIMG: p37,
+        projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1620849142/PortfolioIMG/Projects/p3.7_n8e1ds.png",
         url: "https://kind-agnesi-86dcc5.netlify.app/"
     }];
 export const ProjectData4 = [
     {
-        projIMG: p41,
+        projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1620849154/PortfolioIMG/Projects/p4.1_uttk5k.png",
         url: "https://brave-beaver-b75543.netlify.app/"
     },
     {
-        projIMG: p42,
+        projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1620849144/PortfolioIMG/Projects/p4.2_p5egdn.png",
         url: "https://brave-beaver-b75543.netlify.app/"
     }];
 export const ProjectData5 = [
     {
-        projIMG: p43,
+        projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1620849170/PortfolioIMG/Projects/p5.1_byizfw.png",
         url: "https://dev-ieducare.turontechnologies.com/"
     },
     {
-        projIMG: p44,
+        projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1620849158/PortfolioIMG/Projects/p5.2_cdtsvr.png",
         url: "https://dev-ieducare.turontechnologies.com/"
     },
     {
-        projIMG: p45,
+        projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1620849158/PortfolioIMG/Projects/p5.3_kgfbgv.png",
         url: "https://dev-ieducare.turontechnologies.com/"
     },
     {
-        projIMG: p46,
+        projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1620849156/PortfolioIMG/Projects/p5.4_qoar1q.png",
         url: "https://dev-ieducare.turontechnologies.com/"
     },
     {
-        projIMG: p47,
+        projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1620849158/PortfolioIMG/Projects/p5.5_gwbq8p.png",
         url: "https://dev-ieducare.turontechnologies.com/"
     },
     {
-        projIMG: p48,
+        projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1620849159/PortfolioIMG/Projects/p5.6_nxdaxk.png",
         url: "https://dev-ieducare.turontechnologies.com/"
     }
     ,
     {
-        projIMG: p49,
+        projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1620849168/PortfolioIMG/Projects/p5.7_xri0ow.png",
         url: "https://dev-ieducare.turontechnologies.com/"
     }
     ,
     {
-        projIMG: p50,
+        projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1620849162/PortfolioIMG/Projects/p5.8_kymzat.png",
         url: "https://dev-ieducare.turontechnologies.com/"
     }];
 
 
 export const ProjectData6 = [
     {
-        projIMG: p51,
+        projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1620849169/PortfolioIMG/Projects/p6.1_epolao.png",
         // url: "http://iqstore.ivyarc.com/"
     },
     {
-        projIMG: p52,
+        projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1620849163/PortfolioIMG/Projects/p6.2_s3mcmp.png",
         // url: "http://iqstore.ivyarc.com/"
     },
     {
-        projIMG: p53,
+        projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1620849178/PortfolioIMG/Projects/p6.3_hxfpfh.png",
         // url: "http://iqstore.ivyarc.com/"
     },
     {
-        projIMG: p54,
+        projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1620849175/PortfolioIMG/Projects/p6.4_d26bk8.png",
         // url: "http://iqstore.ivyarc.com/"
     }, {
-        projIMG: p55,
+        projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1620849170/PortfolioIMG/Projects/p6.5_lb2jbr.png",
         // url: "http://iqstore.ivyarc.com/"
     },
     {
-        projIMG: p56,
+        projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1620849172/PortfolioIMG/Projects/p6.6_t9voca.png",
         // url: "http://iqstore.ivyarc.com/"
     }, {
-        projIMG: p57,
+        projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1620849177/PortfolioIMG/Projects/p6.7_egpjo3.png",
         // url: "http://iqstore.ivyarc.com/"
     }, {
-        projIMG: p58,
+        projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1620849172/PortfolioIMG/Projects/p6.8_qrwx73.png",
         // url: "http://iqstore.ivyarc.com/"
     }, {
-        projIMG: p59,
+        projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1620849178/PortfolioIMG/Projects/p6.9_kpuncb.png",
         // url: "http://iqstore.ivyarc.com/"
     }, {
-        projIMG: p90,
+        projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1620849184/PortfolioIMG/Projects/p6.10_wfwige.png",
         // url: "http://iqstore.ivyarc.com/"
     }, {
-        projIMG: p91,
+        projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1620849177/PortfolioIMG/Projects/p6.11_lv9fq7.png",
         // url: "http://iqstore.ivyarc.com/"
     }, {
-        projIMG: p92,
+        projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1620849186/PortfolioIMG/Projects/p6.12_grdqec.png",
         // url: "http://iqstore.ivyarc.com/"
     }];
 
 export const ProjectData7 = [
     {
-        projIMG: p93,
+        projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1620849207/PortfolioIMG/Projects/p7.1_vtfllb.png",
         url: "https://minority-programmers-front-end-test.vercel.app/"
     },
     {
-        projIMG: p94,
+        projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1620849202/PortfolioIMG/Projects/p7.2_kfxgir.png",
         url: "https://minority-programmers-front-end-test.vercel.app/"
     },
     {
-        projIMG: p95,
+        projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1620849197/PortfolioIMG/Projects/p7.3_fqjszy.png",
         url: "https://minority-programmers-front-end-test.vercel.app/"
     },
     {
-        projIMG: p96,
+        projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1620849189/PortfolioIMG/Projects/p7.4_bjssyi.png",
         url: "https://minority-programmers-front-end-test.vercel.app/"
     }, {
-        projIMG: p97,
+        projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1620849187/PortfolioIMG/Projects/p7.5_dscwao.png",
         url: "https://minority-programmers-front-end-test.vercel.app/"
     },
     {
-        projIMG: p98,
+        projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1620849205/PortfolioIMG/Projects/p7.6_vpygfd.png",
         url: "https://minority-programmers-front-end-test.vercel.app/"
     }, {
-        projIMG: p99,
+        projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1620849201/PortfolioIMG/Projects/p7.7_ogzdyt.png",
         url: "https://minority-programmers-front-end-test.vercel.app/"
     }, {
-        projIMG: p100,
+        projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1620849201/PortfolioIMG/Projects/p7.8_cigelw.png",
         url: "https://minority-programmers-front-end-test.vercel.app/"
     }, {
-        projIMG: p101,
+        projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1620849209/PortfolioIMG/Projects/p7.9_eocwi3.png",
         url: "https://minority-programmers-front-end-test.vercel.app/"
     }, {
-        projIMG: p102,
+        projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1620849208/PortfolioIMG/Projects/p7.10_kjpqi5.png",
         url: "https://minority-programmers-front-end-test.vercel.app/"
     }];

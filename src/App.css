@@ -16,7 +16,7 @@
 .App-header {
   /* background-color: #cc9966; */
   min-height: 100vh;
-  background-image: url(./img/glen-carrie-6-XmguXtoVE-unsplash.jpg);
+  background-image: url(https://res.cloudinary.com/kazeemerinfolami/image/upload/v1620848864/PortfolioIMG/Backgrounds/glen-carrie-6-XmguXtoVE-unsplash_ki3m9q.jpg);
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
@@ -157,7 +157,7 @@ margin: 10px 0;
 }
 .About-me-container{
 /* background: linear-gradient(152deg, rgba(1,1,1,0) 0%, rgba(25,231,227,1) 0%, rgba(40,200,205,0.7189250700280112) 17%, rgba(62,189,186,0.5088410364145659) 49%, rgba(150,150,150,0.27354691876750703) 74%); */
-  background-image: url(/src/img/d2qt4gt-e3f9fe0c-c2da-4aa6-82c4-dc346c14ad0a.gif);
+  background-image: url(https://res.cloudinary.com/kazeemerinfolami/image/upload/v1620848872/PortfolioIMG/Backgrounds/d2qt4gt-e3f9fe0c-c2da-4aa6-82c4-dc346c14ad0a_ju1pjv.gif);
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
@@ -182,7 +182,7 @@ background-size: cover;
 }
 
 .project-container{
- background-image: url(/src/img/annie-spratt-3-sasPgXnoQ-unsplash.jpg);
+ background-image: url(https://res.cloudinary.com/kazeemerinfolami/image/upload/v1620849042/PortfolioIMG/Backgrounds/joe-woods-4Zaq5xY5M_c-unsplash_cgxf0t.jpg);
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
@@ -228,7 +228,7 @@ img.medium{
    margin-top: 25%;
 } */
 .Contact-container{
-   background-image: url(/src/img/pavel-voinov-2f_CnEeZsVg-unsplash.jpg);
+   background-image: url(https://res.cloudinary.com/kazeemerinfolami/image/upload/v1620848878/PortfolioIMG/Backgrounds/pavel-voinov-2f_CnEeZsVg-unsplash_vvrcws.jpg);
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
