@@ -33,8 +33,8 @@ function Projects() {
             initial="hidden"
             animate="visible"
             exit="exit"
-            className="project-container">
-            <div>
+        >
+            <div className="project-container">
                 <Helmet>
                     <title>Kazeem | Projects</title>
                 </Helmet>
