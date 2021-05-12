@@ -55,7 +55,7 @@ function ContactForm() {
                             <input type="phone" className="form-control" value="" placeholder="+ .... .... ..." required></input>
                         </div>
                     </div>
-                    <small id="emailHelp" className="form-text email_note"><span className="shield-icon iconify" data-icon="dashicons:shield" data-inline="false"></span>I never share your email with anyone else.</small>
+                    <small id="emailHelp" className="form-text email_note"><span className="shield-icon iconify" data-icon="dashicons:shield" data-inline="false"></span>I'll never share your email with anyone else.</small>
                     <div className="col-lg-12">
                         <div className="form-group">
                             <label for="exampleFormControlTextarea1">Message Kazeem...</label>
