@@ -78,37 +78,37 @@ export const ProjectData4 = [
 export const ProjectData5 = [
     {
         projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1620849170/PortfolioIMG/Projects/p5.1_byizfw.png",
-        url: "https://dev-ieducare.turontechnologies.com/"
+        url: "https://dev-ieducare.turontechnologies.com/student-login"
     },
     {
         projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1620849158/PortfolioIMG/Projects/p5.2_cdtsvr.png",
-        url: "https://dev-ieducare.turontechnologies.com/"
+        url: "https://dev-ieducare.turontechnologies.com/student-login"
     },
     {
         projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1620849158/PortfolioIMG/Projects/p5.3_kgfbgv.png",
-        url: "https://dev-ieducare.turontechnologies.com/"
+        url: "https://dev-ieducare.turontechnologies.com/student-login"
     },
     {
         projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1620849156/PortfolioIMG/Projects/p5.4_qoar1q.png",
-        url: "https://dev-ieducare.turontechnologies.com/"
+        url: "https://dev-ieducare.turontechnologies.com/student-login"
     },
     {
         projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1620849158/PortfolioIMG/Projects/p5.5_gwbq8p.png",
-        url: "https://dev-ieducare.turontechnologies.com/"
+        url: "https://dev-ieducare.turontechnologies.com/student-login"
     },
     {
         projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1620849159/PortfolioIMG/Projects/p5.6_nxdaxk.png",
-        url: "https://dev-ieducare.turontechnologies.com/"
+        url: "https://dev-ieducare.turontechnologies.com/student-login"
     }
     ,
     {
         projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1620849168/PortfolioIMG/Projects/p5.7_xri0ow.png",
-        url: "https://dev-ieducare.turontechnologies.com/"
+        url: "https://dev-ieducare.turontechnologies.com/student-login"
     }
     ,
     {
         projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1620849162/PortfolioIMG/Projects/p5.8_kymzat.png",
-        url: "https://dev-ieducare.turontechnologies.com/"
+        url: "https://dev-ieducare.turontechnologies.com/student-login"
     }];
 
 
