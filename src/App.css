@@ -14,8 +14,12 @@
 } */
 
 .App-header {
-  background-color: #f0b45cc4;
+  /* background-color: #cc9966; */
   min-height: 100vh;
+  background-image: url(./img/marina-grynykha-NzdDTH1hsT0-unsplash.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
 }
 
 .App-link {
