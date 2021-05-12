@@ -154,7 +154,10 @@ background-size: cover;
 }
 
 .project-container{
-/* background: rgb(187, 187, 187); */
+background-image: url(/src/img/annie-spratt-3-sasPgXnoQ-unsplash.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
     min-height: 100vh;
 }
 .project-img-wrapper{
