@@ -248,7 +248,15 @@ margin: 40px 0;
     margin: 0 10px;
     color: brown !important;
 }
-
+.messageIconSubmittingColor{
+color: yellow !important;
+}
+.messageIconBadRequestColor{
+color: red !important;
+}
+.messageIconSucessColor{
+color: green !important;
+}
 
 
 /* ///////////////.....Mobile Sreen.....//////////////// */
