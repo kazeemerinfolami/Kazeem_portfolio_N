@@ -25,11 +25,12 @@ function ContactForm() {
         firstname: "",
         lastname: "",
         email: "",
-        phone: "",
+        number: "",
         message: "",
         button: "Submit",
     })
-    const { email, firstname, lastname, phone, button, message } = values;
+    const { email, firstname, lastname, number, button, message } = values;
+    const userData = { email, firstname, lastname, number, message };
 
     const handleChange = (type) => (e) => {
         setValues({ ...values, [type]: e.target.value })
@@ -40,16 +41,17 @@ function ContactForm() {
         setValues({
             button: "Submitting...",
         })
+        // console.log('VALUE', userData)
         axios({
             method: "POST",
             url: "https://portfolio-backend-bj.herokuapp.com/api/contact",
-            data: { email, firstname, lastname, phone, message }
+            data: userData
         }).then((res) => {
             setValues({
                 firstname: "",
                 lastname: "",
                 email: "",
-                phone: "",
+                number: "",
                 message: "",
                 colorType: false,
                 button: res.data.message,
@@ -95,18 +97,21 @@ function ContactForm() {
                             <input type="text" onChange={handleChange("lastname")} value={lastname} className="form-control" placeholder="E..........." required></input>
                         </div>
                         <div className="form-group">
-                            <label for="phone">Phone Number</label>
-                            <input type="phone" onChange={handleChange("phone")} value={phone} className="form-control" placeholder="+ .... .... ..." required></input>
+                            <label for="phone">Number</label>
+                            <input type="phone" onChange={handleChange("number")} value={number} className="form-control" placeholder="+ .... .... ..." required></input>
                         </div>
                     </div>
-                    <small id="emailHelp" className="form-text email_note"><span className="shield-icon iconify" data-icon="dashicons:shield" data-inline="false"></span>I'll never share your email with anyone else.</small>
+                    <small id="emailHelp" className="form-text email_note">
+                        <span className="shield-icon iconify" data-icon="dashicons:shield" data-inline="false">
+                        </span>Your data is safe and secured.
+                    </small>
                     <div className="col-lg-12">
                         <div className="form-group">
                             <label for="exampleFormControlTextarea1">Message Kazeem...</label>
                             <textarea type="text" onChange={handleChange("message")} value={message} className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                         </div>
                     </div>
-                    <button className="contact-me-submit" onClick={submitForm}>{button} <span className="iconify" data-icon="bx:bx-mail-send" data-inline="false"></span></button>
+                    <button className="contact-me-submit" onClick={submitForm}>{button}<span className="iconify" data-icon="bx:bx-mail-send" data-inline="false"></span></button>
                 </div>
             </form>
         </div>
