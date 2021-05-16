@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import axios from "axios"
 import { motion } from "framer-motion"
 
@@ -57,8 +57,6 @@ const ContactForm = () => {
                     message: "",
                     button: res.data.message,
                 })
-                setSendingMail(false)
-                console.log("fals", sendingMail)
                 console.log('DATA SUBMITTED', res)
             })
             .catch((err) => {
@@ -66,7 +64,6 @@ const ContactForm = () => {
                     ...values,
                     button: "Message Not sent",
                 })
-                setSendingMail(false)
                 console.log('DATA ERROR', err)
             })
     }
