@@ -36,62 +36,40 @@ const ContactForm = () => {
         setValues({ ...values, [type]: e.target.value })
     }
 
-    const submitForm = async (e) => {
+    const submitForm = (e) => {
         e.preventDefault();
-        try {
-            setValues({
-                ...values,
-                button: "Submitting...",
+        setValues({
+            ...values,
+            button: "Submitting...",
+        })
+        axios({
+            method: "POST",
+            url: "https://portfolio-backend-bj.herokuapp.com/api/contact",
+            data: userData
+        })
+            .then((res) => {
+                setValues({
+                    ...values,
+                    firstname: "",
+                    lastname: "",
+                    email: "",
+                    number: "",
+                    message: "",
+                    button: res.data.message,
+                })
+                setSendingMail(false)
+                console.log("fals", sendingMail)
+                console.log('DATA SUBMITTED', res)
             })
-            const sendData = await axios.post(
-                "https://portfolio-backend-bj.herokuapp.com/api/contact",
-                userData
-            );
-            console.log("RES", sendData);
-        } catch (err) {
-            setValues({
-                ...values,
-                button: "Failed...",
+            .catch((err) => {
+                setValues({
+                    ...values,
+                    button: "Message Not sent",
+                })
+                setSendingMail(false)
+                console.log('DATA ERROR', err)
             })
-            // Handle Error Here
-            console.error("ERR", err);
-        }
     }
-
-    // const submitForm = (e) => {
-    //     e.preventDefault();
-    //     setValues({
-    //         ...values,
-    //         button: "Submitting...",
-    //     })
-    //     axios({
-    //         method: "POST",
-    //         url: "https://portfolio-backend-bj.herokuapp.com/api/contact",
-    //         data: userData
-    //     })
-    // .then((res) => {
-    //     setValues({
-    //         ...values,
-    //         firstname: "",
-    //         lastname: "",
-    //         email: "",
-    //         number: "",
-    //         message: "",
-    //         button: res.data.message,
-    //     })
-    //     setSendingMail(false)
-    //     console.log("fals", sendingMail)
-    //     console.log('DATA SUBMITTED', res)
-    // })
-    // .catch((err) => {
-    //     setValues({
-    //         ...values,
-    //         button: "Message Not sent",
-    //     })
-    //     setSendingMail(false)
-    //     console.log('DATA ERROR', err)
-    // })
-    // }
 
     return (
         <div className="Contact-me-for-container">
