@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import axios from "axios"
 import { motion } from "framer-motion"
 
@@ -20,7 +20,7 @@ const animVariants = {
     }
 }
 
-function ContactForm() {
+const ContactForm = () => {
     const [values, setValues] = useState({
         firstname: "",
         lastname: "",
@@ -36,35 +36,62 @@ function ContactForm() {
         setValues({ ...values, [type]: e.target.value })
     }
 
-    const submitForm = (e) => {
+    const submitForm = async (e) => {
         e.preventDefault();
-        setValues({
-            button: "Submitting...",
-        })
-        // console.log('VALUE', userData)
-        axios({
-            method: "POST",
-            url: "https://portfolio-backend-bj.herokuapp.com/api/contact",
-            data: userData
-        }).then((res) => {
+        try {
             setValues({
-                firstname: "",
-                lastname: "",
-                email: "",
-                number: "",
-                message: "",
-                colorType: false,
-                button: res.data.message,
+                ...values,
+                button: "Submitting...",
             })
-            console.log('DATA SUBMITTED', res)
-        }).catch((err) => {
+            const sendData = await axios.post(
+                "https://portfolio-backend-bj.herokuapp.com/api/contact",
+                userData
+            );
+            console.log("RES", sendData);
+        } catch (err) {
             setValues({
-                colorType: "fail",
-                button: "Message Not sent",
+                ...values,
+                button: "Failed...",
             })
-            console.log('DATA ERROR', err)
-        })
+            // Handle Error Here
+            console.error("ERR", err);
+        }
     }
+
+    // const submitForm = (e) => {
+    //     e.preventDefault();
+    //     setValues({
+    //         ...values,
+    //         button: "Submitting...",
+    //     })
+    //     axios({
+    //         method: "POST",
+    //         url: "https://portfolio-backend-bj.herokuapp.com/api/contact",
+    //         data: userData
+    //     })
+    // .then((res) => {
+    //     setValues({
+    //         ...values,
+    //         firstname: "",
+    //         lastname: "",
+    //         email: "",
+    //         number: "",
+    //         message: "",
+    //         button: res.data.message,
+    //     })
+    //     setSendingMail(false)
+    //     console.log("fals", sendingMail)
+    //     console.log('DATA SUBMITTED', res)
+    // })
+    // .catch((err) => {
+    //     setValues({
+    //         ...values,
+    //         button: "Message Not sent",
+    //     })
+    //     setSendingMail(false)
+    //     console.log('DATA ERROR', err)
+    // })
+    // }
 
     return (
         <div className="Contact-me-for-container">
@@ -111,7 +138,8 @@ function ContactForm() {
                             <textarea type="text" onChange={handleChange("message")} value={message} className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                         </div>
                     </div>
-                    <button className="contact-me-submit" onClick={submitForm}>{button}<span className="iconify" data-icon="bx:bx-mail-send" data-inline="false"></span></button>
+                    <button className="contact-me-submit" onClick={submitForm}>{button}<span className="iconify" data-icon="bx:bx-mail-send" data-inline="false"></span>
+                    </button>
                 </div>
             </form>
         </div>
