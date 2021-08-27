@@ -5,7 +5,7 @@ import { motion } from "framer-motion"
 function Content2() {
     return (
         <div>
-            <div className="welcome-wrapper">
+            <div className="welcome-wrapper card--body2">
                 <nav>
                     <motion.div
                         whileHover={{

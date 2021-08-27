@@ -1,80 +1,80 @@
-export const ProjectData = [
+
+export const ProjectData1 = [
     {
-        projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1620849183/PortfolioIMG/Projects/p1.1_e9obvx.png",
-        url: "http://iqstore.ivyarc.com/"
+        projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1629118996/PortfolioIMG/Projects/pH1_tkpcn5.png",
+        url: "https://athealth-fe.vercel.app/"
     },
     {
-        projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1620849122/PortfolioIMG/Projects/p1.2_sqxlyo.png",
-        url: "http://iqstore.ivyarc.com/"
+        projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1629118995/PortfolioIMG/Projects/pH2_vgjoid.png",
+        url: "https://athealth-fe.vercel.app/"
     },
     {
-        projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1620849151/PortfolioIMG/Projects/p1.3_ibywsp.png",
-        url: "http://iqstore.ivyarc.com/"
+        projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1629118995/PortfolioIMG/Projects/pH3_oilcmk.png",
+        url: "https://athealth-fe.vercel.app/"
     },
     {
-        projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1620849151/PortfolioIMG/Projects/p1.4_lhmqkd.png",
-        url: "http://iqstore.ivyarc.com/"
-    }, {
-        projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1620849121/PortfolioIMG/Projects/p1.5_a1szld.png",
-        url: "http://iqstore.ivyarc.com/"
+        projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1629118996/PortfolioIMG/Projects/pH4_jmx4vs.png",
+        url: "https://athealth-fe.vercel.app/"
     },
     {
-        projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1620849121/PortfolioIMG/Projects/p1.6_luouop.png",
-        url: "http://iqstore.ivyarc.com/"
-    }, {
-        projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1620849122/PortfolioIMG/Projects/p1.7_lsakhr.png",
-        url: "http://iqstore.ivyarc.com/"
+        projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1629118996/PortfolioIMG/Projects/pH5_ieacz2.png",
+        url: "https://athealth-fe.vercel.app/"
+    },
+    {
+        projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1629118995/PortfolioIMG/Projects/pH6_jsswam.png",
+        url: "https://athealth-fe.vercel.app/"
+    }
+    ,
+    {
+        projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1629118997/PortfolioIMG/Projects/pH7_zzn6cf.png",
+        url: "https://athealth-fe.vercel.app/"
+    }
+    ,
+    {
+        projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1629118997/PortfolioIMG/Projects/pH8_itvblf.png",
+        url: "https://athealth-fe.vercel.app/"
+    },
+    {
+        projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1629118997/PortfolioIMG/Projects/pH9_cfpezt.png",
+        url: "https://athealth-fe.vercel.app/"
+    },
+    {
+        projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1629118996/PortfolioIMG/Projects/pH10_qa4jza.png",
+        url: "https://athealth-fe.vercel.app/"
+    },
+    {
+        projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1629118999/PortfolioIMG/Projects/pH13_didrck.png",
+        url: "https://athealth-fe.vercel.app/"
+    },
+    {
+        projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1629118998/PortfolioIMG/Projects/pH14_nrrfa8.png",
+        url: "https://athealth-fe.vercel.app/"
+    },
+    {
+        projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1629118997/PortfolioIMG/Projects/pH15_pymp48.png",
+        url: "https://athealth-fe.vercel.app/"
+    },
+    {
+        projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1629118998/PortfolioIMG/Projects/pH17_w1qf23.png",
+        url: "https://athealth-fe.vercel.app/"
+    },
+    {
+        projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1629118998/PortfolioIMG/Projects/pH17b_oirnnp.png",
+        url: "https://athealth-fe.vercel.app/"
+    },
+    {
+        projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1629118998/PortfolioIMG/Projects/pH18_g86q46.png",
+        url: "https://athealth-fe.vercel.app/"
+    },
+    {
+        projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1629118999/PortfolioIMG/Projects/pH19_t3jaxh.png",
+        url: "https://athealth-fe.vercel.app/"
+    },
+    {
+        projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1629118998/PortfolioIMG/Projects/pH20_fgput9.png",
+        url: "https://athealth-fe.vercel.app/"
     }];
-export const ProjectData2 = [
-    {
-        projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1620849134/PortfolioIMG/Projects/p2.1_ndfhq8.png",
-        url: "https://laughing-bose-fd441e.netlify.app/"
-    },
-    {
-        projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1620849124/PortfolioIMG/Projects/p2.2_kad9e0.png",
-        url: "https://laughing-bose-fd441e.netlify.app/"
-    },
-    {
-        projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1620849125/PortfolioIMG/Projects/p2.3_ahflht.png",
-        url: "https://laughing-bose-fd441e.netlify.app/"
-    },]
-export const ProjectData3 = [
-    {
-        projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1620849132/PortfolioIMG/Projects/p3.1_mwoazu.png",
-        url: "https://kind-agnesi-86dcc5.netlify.app/"
-    },
-    {
-        projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1620849141/PortfolioIMG/Projects/p3.2_za2kob.png",
-        url: "https://kind-agnesi-86dcc5.netlify.app/"
-    },
-    {
-        projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1620849136/PortfolioIMG/Projects/p3.3_msvbxs.png",
-        url: "https://kind-agnesi-86dcc5.netlify.app/"
-    },
-    {
-        projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1620849139/PortfolioIMG/Projects/p3.4_wqxcis.png",
-        url: "https://kind-agnesi-86dcc5.netlify.app/"
-    }, {
-        projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1620849140/PortfolioIMG/Projects/p3.5_nk8m4v.png",
-        url: "https://kind-agnesi-86dcc5.netlify.app/"
-    },
-    {
-        projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1620849151/PortfolioIMG/Projects/p3.6_idlydm.png",
-        url: "https://kind-agnesi-86dcc5.netlify.app/"
-    },
-    {
-        projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1620849142/PortfolioIMG/Projects/p3.7_n8e1ds.png",
-        url: "https://kind-agnesi-86dcc5.netlify.app/"
-    }];
-export const ProjectData4 = [
-    {
-        projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1620849154/PortfolioIMG/Projects/p4.1_uttk5k.png",
-        url: "https://brave-beaver-b75543.netlify.app/"
-    },
-    {
-        projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1620849144/PortfolioIMG/Projects/p4.2_p5egdn.png",
-        url: "https://brave-beaver-b75543.netlify.app/"
-    }];
+
 export const ProjectData5 = [
     {
         projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1620849170/PortfolioIMG/Projects/p5.1_byizfw.png",
@@ -153,41 +153,4 @@ export const ProjectData6 = [
     }, {
         projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1620849186/PortfolioIMG/Projects/p6.12_grdqec.png",
         // url: "http://iqstore.ivyarc.com/"
-    }];
-
-export const ProjectData7 = [
-    {
-        projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1620849207/PortfolioIMG/Projects/p7.1_vtfllb.png",
-        url: "https://minority-programmers-front-end-test.vercel.app/"
-    },
-    {
-        projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1620849202/PortfolioIMG/Projects/p7.2_kfxgir.png",
-        url: "https://minority-programmers-front-end-test.vercel.app/"
-    },
-    {
-        projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1620849197/PortfolioIMG/Projects/p7.3_fqjszy.png",
-        url: "https://minority-programmers-front-end-test.vercel.app/"
-    },
-    {
-        projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1620849189/PortfolioIMG/Projects/p7.4_bjssyi.png",
-        url: "https://minority-programmers-front-end-test.vercel.app/"
-    }, {
-        projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1620849187/PortfolioIMG/Projects/p7.5_dscwao.png",
-        url: "https://minority-programmers-front-end-test.vercel.app/"
-    },
-    {
-        projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1620849205/PortfolioIMG/Projects/p7.6_vpygfd.png",
-        url: "https://minority-programmers-front-end-test.vercel.app/"
-    }, {
-        projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1620849201/PortfolioIMG/Projects/p7.7_ogzdyt.png",
-        url: "https://minority-programmers-front-end-test.vercel.app/"
-    }, {
-        projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1620849201/PortfolioIMG/Projects/p7.8_cigelw.png",
-        url: "https://minority-programmers-front-end-test.vercel.app/"
-    }, {
-        projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1620849209/PortfolioIMG/Projects/p7.9_eocwi3.png",
-        url: "https://minority-programmers-front-end-test.vercel.app/"
-    }, {
-        projIMG: "https://res.cloudinary.com/kazeemerinfolami/image/upload/v1620849208/PortfolioIMG/Projects/p7.10_kjpqi5.png",
-        url: "https://minority-programmers-front-end-test.vercel.app/"
     }];

@@ -22,7 +22,7 @@ const animVariants = {
 function Content1() {
     return (
         <div>
-            <div className="welcome-wrapper welcome-margin-Top">
+            <div className="welcome-wrapper">
                 <motion.span
                     initial={{ x: "-100vw" }}
                     animate={{ x: 0 }}

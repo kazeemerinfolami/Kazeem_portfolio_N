@@ -42,10 +42,10 @@ function WelcomePage() {
                 </Helmet>
                 <Container>
                     <Row>
-                        <Col lg={6} md={12} style={{ minHeight: "40vh" }} >
+                        <Col xl={6} lg={12} md={12} className="card--body" >
                             <Content1 />
                         </Col>
-                        <Col lg={6} md={12} >
+                        <Col xl={6} lg={12} md={12} className="card--body2"  >
                             <Content2 />
                         </Col>
                     </Row>
