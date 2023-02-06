@@ -174,6 +174,7 @@ function Content2() {
             achieving mid-level developer status.
           </div>
           <div className="welcome-text end">Thanks for reading 😊</div>
+          <div className="welcome-text end">Thanks for reading 😊</div>
         </div>
       </div>
     </div>
